@@ -1,0 +1,38 @@
+body {
+	background-image: url('toning.png'); ;
+	background-color: black;
+	color: white;
+	background-repeat: repeat-x;
+}
+
+
+
+#main {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+	height: auto;
+	border: 1px solid black; }
+
+#logo {
+	background-image: url('logo.png');
+	float: left;
+	position: relative;
+	margin-left: -1px;
+	margin-top: -1px;
+	width: 150px;
+	height: 150px;
+	border: 1px solid black;}
+
+
+#header {							/*bredden är 1135 (1285 på main)*/
+	
+	position: relative;
+	margin-left: 150px;
+	margin-top: -1px;
+	margin-right: -1px;
+	width: 1135px;
+	height: 150px;
+	border: 1px solid black;
+}
