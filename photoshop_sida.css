@@ -11,28 +11,63 @@ body {
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	width: auto;
+	width: 1287px; /*1287px*/
 	height: auto;
-	border: 1px solid black; }
+	border: 1px solid black;
+}
 
 #logo {
-	background-image: url('logo.png');
 	float: left;
 	position: relative;
 	margin-left: -1px;
 	margin-top: -1px;
-	width: 150px;
+	width: auto;
 	height: 150px;
-	border: 1px solid black;}
+	border: 1px solid black;
+}
 
 
-#header {							/*bredden är 1135 (1285 på main)*/
-	
+#header {							/*bredden är 1135 på header (1287 på main)*/	
 	position: relative;
 	margin-left: 150px;
 	margin-top: -1px;
 	margin-right: -1px;
-	width: 1135px;
+	width: 1136px;
 	height: 150px;
 	border: 1px solid black;
+}
+
+#menu {
+	float: left;
+	position: relative;
+	margin-left: -1px;
+	margin-top: -1px;
+	margin-right: -1px;
+	width: 150px;
+	height: auto;
+	border: 1px solid black;
+}
+
+#content {
+	/*position: relative;*/
+	width: 1136px;
+	height: auto;
+	margin-left: 149px;
+	margin-right: -1px;
+	margin-top: -1px;
+	margin-bottom: -1px;
+	border: 1px solid black;
+}
+
+a{  text-decoration: none;
+	color: rgb(18,94,45);
+}
+
+a:hover{ color: rgb(20,88,104); 
+}
+
+li {
+	color: rgb(18,94,45);
+	list-style: square;
+	font-size: 0.7cm;
 }
