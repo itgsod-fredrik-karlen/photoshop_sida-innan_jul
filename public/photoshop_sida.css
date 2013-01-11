@@ -62,11 +62,36 @@ a{  text-decoration: none;
 	color: rgb(18,94,45);
 }
 
-a:hover{ color: rgb(20,88,104); 
+#photos {
+	background-image: url('./photos-b.png');
+	background-repeat: no-repeat;
 }
 
+#photos:hover{ 
+	background-image: url('./photos-b_pressed.png');
+	background-repeat: no-repeat;
+}
+
+#info {
+	background-image: url('./info-b.png');
+	background-repeat: no-repeat;
+}
+
+#info:hover {
+	background-image: url('info-b_pressed.png');
+	background-repeat: no-repeat;
+}
+
+
+
 li {
-	color: rgb(18,94,45);
-	list-style: square;
-	font-size: 0.7cm;
+	padding-left: none;
+	margin-left: none;
+	list-style: none;
+}
+
+#menu ul li a {
+	display: block;
+	height: 45px;
+	width: 105px;
 }
